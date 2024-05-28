@@ -1,0 +1,117 @@
+.responsive-text {
+   font-size: 16px;
+ }
+
+ @media (min-width: 576px) {
+   .responsive-text {
+     font-size: 18px;
+   }
+ }
+
+ @media (min-width: 768px) {
+   .responsive-text {
+     font-size: 19px;
+   }
+ }
+
+ @media (min-width: 992px) {
+   .responsive-text {
+     font-size: 20px;
+   }
+ }
+
+ @media (min-width: 1200px) {
+   .responsive-text {
+     font-size: 21px;
+   }
+ }
+
+ body {
+   font-family: Arial, sans-serif;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+.dropbtn {
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   padding: 0;
+}
+.menuLogo{
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+    border-radius: 60px;
+}
+#nv:focus,
+#nv:hover{
+  outline: none;
+  box-shadow: none;
+} 
+
+
+
+.dropbtn img {
+   width: 50px; /* Adjust the size as needed */
+   height: 50px;
+   border-radius: 60px;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   border-radius: 12px ;
+   left: 50%; /* Centering the dropdown content horizontally */
+   transform: translateX(-90%); /* Centering trick */
+   top: 100%;
+}
+
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+.dropdown-content a:hover{
+  color: rgb(62, 127, 224);
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+   
+}
+@media (min-width: 768px) {
+  .navbar-toggler {
+      display: none;
+
+  }
+
+}
+.active{
+  background-color: #1f374e;
+  border-radius: 10px;
+}
+.navFix li a:hover{
+  background:linear-gradient(to right,#405870,#2C3E50);
+  border-radius: 10px;
+}
+#btnClose{
+  outline: none;
+}
+#btnClose:focus{
+  outline:none;
+  box-shadow: none;
+}
+.thick-hr {
+  border: 9px solid #3F576E;
+  outline: none; 
+  opacity: 100;
+}
+
