@@ -1,0 +1,37 @@
+.responsive-text {
+   font-size: 16px;
+ }
+
+ @media (min-width: 576px) {
+   .responsive-text {
+     font-size: 18px;
+   }
+ }
+
+ @media (min-width: 768px) {
+   .responsive-text {
+     font-size: 19px;
+   }
+ }
+
+ @media (min-width: 992px) {
+   .responsive-text {
+     font-size: 20px;
+   }
+ }
+
+ @media (min-width: 1200px) {
+   .responsive-text {
+     font-size: 21px;
+   }
+
+   .custom-input-group .input-group-text {
+      font-size: 1.7rem;
+    }
+    
+    .custom-input {
+      font-size: 1.7rem; 
+      padding: 1.5rem; 
+
+    }
+    
